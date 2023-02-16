@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "D8u85e+/W/u5cqoV+N/uewjr9ONuXPlQhwlSFa1exIhRnHzksCuhVei8VBO2x5agWbxkn/+pIQeO69NQZOZD7w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\intern\\source\\repos\\SitilabAPICore\\SitilabAPICore\\SitilabAPICore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\intern\\.nuget\\packages\\bzip2\\1.0.6.11\\bzip2.1.0.6.11.nupkg.sha512",
+    "C:\\Users\\intern\\.nuget\\packages\\bzip2.redist\\1.0.6.11\\bzip2.redist.1.0.6.11.nupkg.sha512",
+    "C:\\Users\\intern\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512",
+    "C:\\Users\\intern\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}

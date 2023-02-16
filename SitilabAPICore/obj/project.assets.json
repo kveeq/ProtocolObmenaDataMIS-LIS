@@ -1,0 +1,259 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "bzip2/1.0.6.11": {
+        "type": "package",
+        "dependencies": {
+          "bzip2.redist": "1.0.6.11"
+        }
+      },
+      "bzip2.redist/1.0.6.11": {
+        "type": "package"
+      },
+      "RestSharp/108.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SharpZipLib/1.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "bzip2/1.0.6.11": {
+      "sha512": "IsOyE63Dqxz7whD801gbmOkKWmI2Tl5Q5fBJKrikd+0+7biRplnLrpwqeU9lumHVEO1AMKq7Id3bCdW6P0pOVg==",
+      "type": "package",
+      "path": "bzip2/1.0.6.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/configurations.autopkg",
+        "build/native/bzip2-propertiesui-43062304-612e-4296-86e6-5d6b9a481fec.xml",
+        "build/native/bzip2.targets",
+        "build/native/default-propertiesui.xml",
+        "build/native/docs/manual.html",
+        "build/native/docs/manual.pdf",
+        "build/native/docs/manual.xml",
+        "build/native/include/bzlib.h",
+        "build/native/lib/v100/Win32/Debug/dynamic/cdecl/libbz2.lib",
+        "build/native/lib/v100/Win32/Debug/dynamic/stdcall/libbz2.lib",
+        "build/native/lib/v100/Win32/Debug/ltcg/cdecl/libbz2.lib",
+        "build/native/lib/v100/Win32/Debug/ltcg/stdcall/libbz2.lib",
+        "build/native/lib/v100/Win32/Debug/static/cdecl/libbz2.lib",
+        "build/native/lib/v100/Win32/Debug/static/stdcall/libbz2.lib",
+        "build/native/lib/v100/Win32/Release/dynamic/cdecl/libbz2.lib",
+        "build/native/lib/v100/Win32/Release/dynamic/stdcall/libbz2.lib",
+        "build/native/lib/v100/Win32/Release/ltcg/cdecl/libbz2.lib",
+        "build/native/lib/v100/Win32/Release/ltcg/stdcall/libbz2.lib",
+        "build/native/lib/v100/Win32/Release/static/cdecl/libbz2.lib",
+        "build/native/lib/v100/Win32/Release/static/stdcall/libbz2.lib",
+        "build/native/lib/v100/x64/Debug/dynamic/cdecl/libbz2.lib",
+        "build/native/lib/v100/x64/Debug/dynamic/stdcall/libbz2.lib",
+        "build/native/lib/v100/x64/Debug/ltcg/cdecl/libbz2.lib",
+        "build/native/lib/v100/x64/Debug/ltcg/stdcall/libbz2.lib",
+        "build/native/lib/v100/x64/Debug/static/cdecl/libbz2.lib",
+        "build/native/lib/v100/x64/Debug/static/stdcall/libbz2.lib",
+        "build/native/lib/v100/x64/Release/dynamic/cdecl/libbz2.lib",
+        "build/native/lib/v100/x64/Release/dynamic/stdcall/libbz2.lib",
+        "build/native/lib/v100/x64/Release/ltcg/cdecl/libbz2.lib",
+        "build/native/lib/v100/x64/Release/ltcg/stdcall/libbz2.lib",
+        "build/native/lib/v100/x64/Release/static/cdecl/libbz2.lib",
+        "build/native/lib/v100/x64/Release/static/stdcall/libbz2.lib",
+        "build/native/lib/v110/Win32/Debug/dynamic/cdecl/libbz2.lib",
+        "build/native/lib/v110/Win32/Debug/dynamic/stdcall/libbz2.lib",
+        "build/native/lib/v110/Win32/Debug/ltcg/cdecl/libbz2.lib",
+        "build/native/lib/v110/Win32/Debug/ltcg/stdcall/libbz2.lib",
+        "build/native/lib/v110/Win32/Debug/static/cdecl/libbz2.lib",
+        "build/native/lib/v110/Win32/Debug/static/stdcall/libbz2.lib",
+        "build/native/lib/v110/Win32/Release/dynamic/cdecl/libbz2.lib",
+        "build/native/lib/v110/Win32/Release/dynamic/stdcall/libbz2.lib",
+        "build/native/lib/v110/Win32/Release/ltcg/cdecl/libbz2.lib",
+        "build/native/lib/v110/Win32/Release/ltcg/stdcall/libbz2.lib",
+        "build/native/lib/v110/Win32/Release/static/cdecl/libbz2.lib",
+        "build/native/lib/v110/Win32/Release/static/stdcall/libbz2.lib",
+        "build/native/lib/v110/x64/Debug/dynamic/cdecl/libbz2.lib",
+        "build/native/lib/v110/x64/Debug/dynamic/stdcall/libbz2.lib",
+        "build/native/lib/v110/x64/Debug/ltcg/cdecl/libbz2.lib",
+        "build/native/lib/v110/x64/Debug/ltcg/stdcall/libbz2.lib",
+        "build/native/lib/v110/x64/Debug/static/cdecl/libbz2.lib",
+        "build/native/lib/v110/x64/Debug/static/stdcall/libbz2.lib",
+        "build/native/lib/v110/x64/Release/dynamic/cdecl/libbz2.lib",
+        "build/native/lib/v110/x64/Release/dynamic/stdcall/libbz2.lib",
+        "build/native/lib/v110/x64/Release/ltcg/cdecl/libbz2.lib",
+        "build/native/lib/v110/x64/Release/ltcg/stdcall/libbz2.lib",
+        "build/native/lib/v110/x64/Release/static/cdecl/libbz2.lib",
+        "build/native/lib/v110/x64/Release/static/stdcall/libbz2.lib",
+        "bzip2.1.0.6.11.nupkg.sha512",
+        "bzip2.nuspec"
+      ]
+    },
+    "bzip2.redist/1.0.6.11": {
+      "sha512": "LCkwIcAwEMGIkyZZg3PUHIOPaxHX6NyCq1RUt9yCJlTWbwzgsqkQS/z3J4g2JNMkH9GxSvxKxQZZ+ll1oSWHCQ==",
+      "type": "package",
+      "path": "bzip2.redist/1.0.6.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/configurations.autopkg",
+        "build/native/bin/v100/Win32/Debug/dynamic/cdecl/libbz2.dll",
+        "build/native/bin/v100/Win32/Debug/dynamic/stdcall/libbz2.dll",
+        "build/native/bin/v100/Win32/Release/dynamic/cdecl/libbz2.dll",
+        "build/native/bin/v100/Win32/Release/dynamic/stdcall/libbz2.dll",
+        "build/native/bin/v100/x64/Debug/dynamic/cdecl/libbz2.dll",
+        "build/native/bin/v100/x64/Debug/dynamic/stdcall/libbz2.dll",
+        "build/native/bin/v100/x64/Release/dynamic/cdecl/libbz2.dll",
+        "build/native/bin/v100/x64/Release/dynamic/stdcall/libbz2.dll",
+        "build/native/bin/v110/Win32/Debug/dynamic/cdecl/libbz2.dll",
+        "build/native/bin/v110/Win32/Debug/dynamic/stdcall/libbz2.dll",
+        "build/native/bin/v110/Win32/Release/dynamic/cdecl/libbz2.dll",
+        "build/native/bin/v110/Win32/Release/dynamic/stdcall/libbz2.dll",
+        "build/native/bin/v110/x64/Debug/dynamic/cdecl/libbz2.dll",
+        "build/native/bin/v110/x64/Debug/dynamic/stdcall/libbz2.dll",
+        "build/native/bin/v110/x64/Release/dynamic/cdecl/libbz2.dll",
+        "build/native/bin/v110/x64/Release/dynamic/stdcall/libbz2.dll",
+        "build/native/bzip2.redist.targets",
+        "build/native/default-propertiesui.xml",
+        "bzip2.redist.1.0.6.11.nupkg.sha512",
+        "bzip2.redist.nuspec"
+      ]
+    },
+    "RestSharp/108.0.3": {
+      "sha512": "phq1AkVhqVXHZxvWDV4fJEJKCR5OHNFUGx2Ix8o5EFShS6654oZhth4X2RWvaU/W7UexIswW0T+lTirxfLU2Ow==",
+      "type": "package",
+      "path": "restsharp/108.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/RestSharp.dll",
+        "lib/net5.0/RestSharp.xml",
+        "lib/net6.0/RestSharp.dll",
+        "lib/net6.0/RestSharp.xml",
+        "lib/netstandard2.0/RestSharp.dll",
+        "lib/netstandard2.0/RestSharp.xml",
+        "restsharp.108.0.3.nupkg.sha512",
+        "restsharp.nuspec",
+        "restsharp.png"
+      ]
+    },
+    "SharpZipLib/1.4.2": {
+      "sha512": "yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
+      "type": "package",
+      "path": "sharpziplib/1.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/sharpziplib-nuget-256x256.png",
+        "lib/net6.0/ICSharpCode.SharpZipLib.dll",
+        "lib/net6.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/net6.0/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.xml",
+        "sharpziplib.1.4.2.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "RestSharp >= 108.0.3",
+      "SharpZipLib >= 1.4.2",
+      "bzip2 >= 1.0.6.11"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\intern\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\intern\\source\\repos\\SitilabAPICore\\SitilabAPICore\\SitilabAPICore.csproj",
+      "projectName": "SitilabAPICore",
+      "projectPath": "C:\\Users\\intern\\source\\repos\\SitilabAPICore\\SitilabAPICore\\SitilabAPICore.csproj",
+      "packagesPath": "C:\\Users\\intern\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\intern\\source\\repos\\SitilabAPICore\\SitilabAPICore\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\intern\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "RestSharp": {
+            "target": "Package",
+            "version": "[108.0.3, )"
+          },
+          "SharpZipLib": {
+            "target": "Package",
+            "version": "[1.4.2, )"
+          },
+          "bzip2": {
+            "target": "Package",
+            "version": "[1.0.6.11, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SitilabAPICore/1.0.0": {
+        "dependencies": {
+          "RestSharp": "108.0.3",
+          "SharpZipLib": "1.4.2",
+          "bzip2": "1.0.6.11"
+        },
+        "runtime": {
+          "SitilabAPICore.dll": {}
+        }
+      },
+      "bzip2/1.0.6.11": {
+        "dependencies": {
+          "bzip2.redist": "1.0.6.11"
+        }
+      },
+      "bzip2.redist/1.0.6.11": {},
+      "RestSharp/108.0.3": {
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "assemblyVersion": "108.0.3.0",
+            "fileVersion": "108.0.3.0"
+          }
+        }
+      },
+      "SharpZipLib/1.4.2": {
+        "runtime": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "assemblyVersion": "1.4.2.13",
+            "fileVersion": "1.4.2.13"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SitilabAPICore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "bzip2/1.0.6.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IsOyE63Dqxz7whD801gbmOkKWmI2Tl5Q5fBJKrikd+0+7biRplnLrpwqeU9lumHVEO1AMKq7Id3bCdW6P0pOVg==",
+      "path": "bzip2/1.0.6.11",
+      "hashPath": "bzip2.1.0.6.11.nupkg.sha512"
+    },
+    "bzip2.redist/1.0.6.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LCkwIcAwEMGIkyZZg3PUHIOPaxHX6NyCq1RUt9yCJlTWbwzgsqkQS/z3J4g2JNMkH9GxSvxKxQZZ+ll1oSWHCQ==",
+      "path": "bzip2.redist/1.0.6.11",
+      "hashPath": "bzip2.redist.1.0.6.11.nupkg.sha512"
+    },
+    "RestSharp/108.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-phq1AkVhqVXHZxvWDV4fJEJKCR5OHNFUGx2Ix8o5EFShS6654oZhth4X2RWvaU/W7UexIswW0T+lTirxfLU2Ow==",
+      "path": "restsharp/108.0.3",
+      "hashPath": "restsharp.108.0.3.nupkg.sha512"
+    },
+    "SharpZipLib/1.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
+      "path": "sharpziplib/1.4.2",
+      "hashPath": "sharpziplib.1.4.2.nupkg.sha512"
+    }
+  }
+}
