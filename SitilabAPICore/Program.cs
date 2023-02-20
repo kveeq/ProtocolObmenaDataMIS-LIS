@@ -18,11 +18,15 @@ namespace SitilabApiCore
         /// <param name="Algoritm"></param>
         public static void Main(string[] args)
         {
-            if(!Directory.Exists(Constants.tempFilesDirectory))
+            System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
+            //Console.OutputEncoding = System.Text.Encoding.GetEncoding("UTF-16");
+            //Console.InputEncoding = System.Text.Encoding.GetEncoding("UTF-16");
+            if (!Directory.Exists(Constants.tempFilesDirectory))
                 Directory.CreateDirectory(Constants.tempFilesDirectory);
             Console.WriteLine("Hello, world!");
             RC_GetInquiryAuthService rr = new RC_GetInquiryAuthService();
-            rr.GetInquiryAuth("20310357");
+            //rr.GetInquiryAuth("20310357");
+            rr.GetPdfResult("20310352", $"PDF_{DateTime.Now.ToString("dd_MM_yyyy")}.pdf");
         }
     }
 }
