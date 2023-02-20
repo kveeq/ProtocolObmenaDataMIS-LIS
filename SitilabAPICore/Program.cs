@@ -25,8 +25,8 @@ namespace SitilabApiCore
                 Directory.CreateDirectory(Constants.tempFilesDirectory);
             Console.WriteLine("Hello, world!");
             RC_GetInquiryAuthService rr = new RC_GetInquiryAuthService();
-            //rr.GetInquiryAuth("20310357");
-            rr.GetPdfResult("20310352", $"PDF_{DateTime.Now.ToString("dd_MM_yyyy")}.pdf");
+            rr.GetInquiryAuth("20310357");
+            //rr.GetPdfResult("20310352", $"PDF_{DateTime.Now.ToString("dd_MM_yyyy")}.pdf");
         }
     }
 }
